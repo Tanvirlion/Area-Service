@@ -1,0 +1,285 @@
+{% extends 'base.html' %}
+
+{% block title %}Home Page{% endblock title %}
+
+{% block body %}
+<div class="container-fluid px-0 ">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="static/img/Map3.jfif" style="height: 600px;width: 1600px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-success">Searcing Location</h5>
+              <p class="text-primary">Easyly Find Your Important Area Details</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="static/img/Map2.jfif" style="height: 600px;width: 1600px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-danger">Your Town</h5>
+              <p>See Your All Nearable Important Location</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="static/img/Map1.jfif" style="height: 600px;width: 1600px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-dark">Wrold Map</h5>
+              <p class="text-primary">The Image Mundi is considered the Oldest surviving world map</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+<div class="container my-2">
+  <h1 class="my-1 text-center">Select Your Sector, Which You Want To Know Details Location</h1>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="static/img/Dhaka.jfif" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text"><strong>DHAKA</strong></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+     
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Select Distric
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                    <li><a class="dropdown-item" href="Dhaka">Dhaka</a></li>
+                    <li><a class="dropdown-item" href="#">Faridpur</a></li>
+                    <li><a class="dropdown-item" href="#">Gazipur</a></li>
+                    <li><a class="dropdown-item" href="#">Gopalganj</a></li>
+                    <li><a class="dropdown-item" href="#">Kishoreganj</a></li>
+                    <li><a class="dropdown-item" href="#">Madaripur</a></li>
+                    <li><a class="dropdown-item" href="#">Manikganj</a></li>
+                    <li><a class="dropdown-item" href="#">Munshiganj</a></li>
+                    <li><a class="dropdown-item" href="#">Narayanganj</a></li>
+                    <li><a class="dropdown-item" href="#">Narsingdi</a></li>
+                    <li><a class="dropdown-item" href="#">Rajbari</a></li>
+                    <li><a class="dropdown-item" href="#">Shariatpur</a></li>
+                    <li><a class="dropdown-item" href="#">Tangail</a></li>
+                  </ul>
+                </div>
+              </select></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="static/img/Chittagong.jfif" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text"><strong>CHATTOGRAM</strong></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Select Distric
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item" href="#">Bandarban</a></li>
+                    <li><a class="dropdown-item" href="#">Brahmanbaria</a></li>
+                    <li><a class="dropdown-item" href="#">Chandpur</a></li>
+                    <li><a class="dropdown-item" href="#">Chittagong</a></li>
+                    <li><a class="dropdown-item" href="#">Comilla</a></li>
+                    <li><a class="dropdown-item" href="#">Cox's Bazar</a></li>
+                    <li><a class="dropdown-item" href="#">Feni</a></li>
+                    <li><a class="dropdown-item" href="#">Khagrachhari</a></li>
+                    <li><a class="dropdown-item" href="#">Lakshmipur</a></li>
+                    <li><a class="dropdown-item" href="#">Noakhali</a></li>
+                    <li><a class="dropdown-item" href="#">Rangamati</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="static/img/Rajshahi.jfif" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text"><strong>RAJSHAHI</strong></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Select Distric
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item" href="#">Bogra</a></li>
+                    <li><a class="dropdown-item" href="#">Joypurhat</a></li>
+                    <li><a class="dropdown-item" href="#">Naogaon</a></li>
+                    <li><a class="dropdown-item" href="#">Natore</a></li>
+                    <li><a class="dropdown-item" href="#">Chapainawabganj</a></li>
+                    <li><a class="dropdown-item" href="#">Pabna</a></li>
+                    <li><a class="dropdown-item" href="#">Rajshahi</a></li>
+                    <li><a class="dropdown-item" href="#">Sirajganj</a></li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="static/img/Barisal.jfif" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text"><strong>BARISAL</strong></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Select Distric
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item" href="#">Barguna</a></li>
+                    <li><a class="dropdown-item" href="#">Barisal</a></li>
+                    <li><a class="dropdown-item" href="#">Bhola</a></li>
+                    <li><a class="dropdown-item" href="#">Jhalokati </a></li>
+                    <li><a class="dropdown-item" href="#">Patuakhali</a></li>
+                    <li><a class="dropdown-item" href="#">Pirojpur</a></li>
+                </ul>
+              </div>
+             
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="static/img/Rangpur.jfif" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text"><strong>RANGPUR</strong></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Select Distric
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item" href="#">Dinajpur</a></li>
+                    <li><a class="dropdown-item" href="#">Gaibandha</a></li>
+                    <li><a class="dropdown-item" href="#">Kurigram</a></li>
+                    <li><a class="dropdown-item" href="#">Lalmonirhat</a></li>
+                    <li><a class="dropdown-item" href="#">Nilphamari</a></li>
+                    <li><a class="dropdown-item" href="#">Panchagarh</a></li>
+                    <li><a class="dropdown-item" href="#">Rangpur</a></li>
+                    <li><a class="dropdown-item" href="#">Thakurgaon</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="static/img/Mymensingh.jfif" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text"><strong>MYMENSINGH</strong></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Select Distric
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item" href="#">Jamalpur</a></li>
+                  <li><a class="dropdown-item" href="#">Mymensingh</a></li>
+                  <li><a class="dropdown-item" href="#">Netrokona</a></li>
+                  <li><a class="dropdown-item" href="#">Sherpur</a></li>
+                </ul>
+              </div>
+             
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="static/img/Sylhet.jfif" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text"><strong>SYLHET</strong></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Select Distric
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item" href="#">Habiganj</a></li>
+                    <li><a class="dropdown-item" href="#">Moulvibazar</a></li>
+                    <li><a class="dropdown-item" href="#">Sunamganj</a></li>
+                    <li><a class="dropdown-item" href="#">Sylhet</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="static/img/Khulna.jfif" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text"><strong>KHULNA</strong></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Select Distric
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item" href="#">Bagerhat</a></li>
+                    <li><a class="dropdown-item" href="#">Chuadanga </a></li>
+                    <li><a class="dropdown-item" href="#">Jessore</a></li>
+                    <li><a class="dropdown-item" href="#">Jhenaidah</a></li>
+                    <li><a class="dropdown-item" href="#">Khulna </a></li>
+                    <li><a class="dropdown-item" href="#">Kushtia</a></li>
+                    <li><a class="dropdown-item" href="#">Magura</a></li>
+                    <li><a class="dropdown-item" href="#">Meherpur</a></li>
+                    <li><a class="dropdown-item" href="#">Narail</a></li>
+                    <li><a class="dropdown-item" href="#">Satkhira</a></li>
+                   
+                </ul>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
+{% endblock body %}
